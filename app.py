@@ -9,7 +9,7 @@ import time
 
 app = Flask(__name__)
 
-# Minimal logging for speeddd
+# Minimal logging for speed
 logging.basicConfig(level=logging.WARNING)  # Changed from INFO to WARNING
 logger = logging.getLogger(__name__)
 
